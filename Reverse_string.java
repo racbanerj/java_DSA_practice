@@ -26,5 +26,12 @@ public static void main (String[] args)
 
     }
     System.out.println(" Reversed string using character array is : " + revr);
+
+
+    //LOGIC 3: Using STringBuffer class
+     StringBuffer sbr =new StringBuffer(str);
+     StringBuffer reverSbfr= sbr.reverse();
+     System.out.println(" Reversed string using StringBuffer is : " + reverSbfr);
+     
 }
 }
